@@ -1,0 +1,27 @@
+.accesos {
+  
+  font-family: 'Franklin Gothic Medium';
+  font-size: 25px;
+  padding-top: 30px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+.portada {
+  background-color: #4ea16e;
+  border: black solid 1px;
+  padding: 20px;
+}
+
+.portada__titulo {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 1000px larger;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.portada__imagen {
+  padding: #4ea16e center;
+}
+/*# sourceMappingURL=style.css.map */

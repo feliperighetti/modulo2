@@ -1,0 +1,29 @@
+
+#principal{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#dep{
+    font-style: oblique;
+    font-size: 25px;
+    color:black;
+  font-family: 'Times New Roman';
+  
+
+}
+
+#descripcion1{
+    font-family: 'Times New Roman';
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+
+} 
+#regl{
+    font-family: 'Times New Roman';
+    color:black;
+    font-size: 25px;
+    font-style: oblique;
+}  

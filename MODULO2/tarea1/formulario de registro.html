@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <div class="formulario">
+        <div class="formulario__titulo1">
+        <h1>Formulario de Inscripcion</h1><br><br>
+        </div>
+        <div class="formulario__datos"><!---bloque-->
+        <form action="show_data.html" method="get">
+        <label for="fname">Nombre del jugador:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <label for="direccion">Direccion</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name=Ciudad>
+        <label for="codigo_Postal">Codigo Postal</label>
+        <input type="text" id="codigo_postal" name="Codigo Postal"><br><br>
+        <label for="fecha-nacimiento">Fecha de nacimiento(dd/mm/aa)</label>
+        <input type="date" id="fecha-nacimiento" name="Fecha de nacimiento(dd/mm/aa)" min="1900/01/02">
+        <input type="checkbox" id="mujer" name="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="checkbox" id="hombre" name="hombre">
+        <label for="hombre">Hombre</label><br><br>
+        </div>
+        <div class="formulario__datos2"><!--bloque-->
+        <p>Genero:</p>
+        <input type="radio" id="grade" name="Preescolar" value="grade">
+        <label for="grade">Preescolar</label>
+        <input type="radio" id="grade1" name="primero" value="grade1">
+        <label for="grade1">1°</label>
+        <input type="radio" id="grade2" name="segundo" value="grade2">
+        <label for="grade2">2°</label>
+        <input type="radio" id="grade3" name="tercero" value="grade3">
+        <label for="grade3">3°</label>
+        <input type="radio" id="grade4" name="cuarto" value="grade4">
+        <label for="grade4">4°</label>
+        <input type="radio" id="grade5" name="quinto" value="grade5">
+        <label for="grade5">5°</label><br><br>
+        </div>
+        <div class="formulario__pregunta"><!---bloque-->
+        <h2>¿De que escuela vives mas cerca?</h2>
+        <p><strong>Escuela mas cercana</strong></p>
+        <input type="radio" id="escuela" name="primera" value="escuela">
+        <label for="escuela">AJ Katzenmaier</label>
+        <input type="radio" id="escuela2" name="segunda" value="escuela2">
+        <label for="escuela2">Marjorie P Hart</label><br>
+        <input type="radio" id="escuela3" name="tercera" value="escuela3">
+        <label for="escuela3">Greenbay</label>
+        <input type="radio" id="escuela4" name="cuarta" value="escuela4">
+        <label for="escuela4">North Elementary</label><br>
+        <input type="radio" id="escuela5" name="quinta" value="escuela5">
+        <label for="escuela5">Howard A Yeager</label>
+        <input type="radio" id="escuela6" name="sexta" value="escuela6">
+        <label for="escuela6">South Elementary</label><br>
+        <p><strong>¿Que posicion(es) juegas normalmente?(marque todas las que correspondan)</strong></p><br>
+        <input type="checkbox" id="pos1" name="delantero" value="pos1">
+        <label for="pos1">Delantero</label>
+        <input type="checkbox" id="pos2" name="mediocampo" value="pos2">
+        <label for="pos2">Mediocampo</label><br>
+        <input type="checkbox" id="pos3" name="portero" value="pos3">
+        <label for="pos1">Portero</label>
+        <input type="checkbox" id="pos4" name="defensa" value="pos4">
+        <label for="pos4">Defensa</label><br>
+        <p><strong>Tamaño de Uniforme</strong></p>
+        <input type="radio" name="np" id="talla1" value="talla1">
+        <label for="talla1">Niño P</label>
+        <input type="radio" name="mediano" id="talla2" value="talla2">
+        <label for="talla2">Mediano</label><br>
+        <input type="radio" name="nm" id="talla3" value="talla3">
+        <label for="talla3">Niño M</label>
+        <input type="radio" name="grande" id="talla4" value="talla4">
+        <label for="talla4">Grande</label><br>
+        <input type="radio" name="ng" id="talla5" value="talla5">
+        <label for="talla5">Niño G</label>
+        <input type="radio" name="xg" id="talla6" value="talla6">
+        <label for="talla6">Extragrande</label><br>
+        <input type="radio" name="pq" id="talla7" value="talla7">
+        <label for="talla7">Pequeño</label><br><br>
+        </div>
+        <div class="titulo2"><!--bloque-->
+        <h2>Permiso para Jugar</h2>
+        </div>
+        <div class="permiso"><!--bloque-->
+        <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+            yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+            de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+            para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+            personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+            cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+            solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+            Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+            que he leído la política de cancelación y acepto sus términos.</p>
+        </div>
+        <label for="firma">Firma Padre/tutor</label>
+        <input type="text" id="firma" name="firmatutor">
+        <label for="fecha">Fecha</label>
+        <input type="text" id="fecha" name="fecha" ><br><br>
+
+        
+    
+
+
+        
+        <input type="submit" value="Submit">
+
+      </form> 
+    </div> 
+
+ </div>     
+</body>
+</html>
